@@ -1,25 +1,25 @@
 class Tmprl < Formula
   desc "A keyboard-driven terminal client for Temporal"
   homepage "https://github.com/arisros/tmprl"
-  version "0.2.0"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/arisros/tmprl/releases/download/v0.2.0/tmprl-aarch64-apple-darwin.tar.xz"
-      sha256 "b0d20a69acbc3460f6e4e6333c61a5df311388bc204778ab3836cff0119c39f3"
+      url "https://github.com/arisros/tmprl/releases/download/v0.2.1/tmprl-aarch64-apple-darwin.tar.xz"
+      sha256 "6baf380c3f612870e5577846aa388603e62184b83deea4bf6731c66c5a1ac7d1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/arisros/tmprl/releases/download/v0.2.0/tmprl-x86_64-apple-darwin.tar.xz"
-      sha256 "0465c10eba346dc30e18b9bfb6820837acd3412f611d54edb52bfe1d90c40d28"
+      url "https://github.com/arisros/tmprl/releases/download/v0.2.1/tmprl-x86_64-apple-darwin.tar.xz"
+      sha256 "6a2550c3d971bb130e0d72855a0efe1f6725b195e3379f22ba5910f22a9c6765"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/arisros/tmprl/releases/download/v0.2.0/tmprl-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "e8582b58d0e6bf60c750f217a8c3effe09dabf013f855e6c96f7c96d06f31823"
+      url "https://github.com/arisros/tmprl/releases/download/v0.2.1/tmprl-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "2ebaf043da85fda42e4662dc30b1dd30aaeb98352d1a0b94bde368ad29963ea3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/arisros/tmprl/releases/download/v0.2.0/tmprl-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "686194ef301472d44e2f0575536ddaf54bb2305a62c6fdc159697b44ec94af3b"
+      url "https://github.com/arisros/tmprl/releases/download/v0.2.1/tmprl-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "9fd15b767fdee1d180ac694ba2866909fa37defd1505f6d44c69888f3184be88"
     end
   end
   license "MIT"
